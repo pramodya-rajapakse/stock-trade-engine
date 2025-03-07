@@ -31,7 +31,7 @@ void addOrders(StockBook *stockbook, int numOrders) {
 	// found through cpp documentation
 	random_device rd;
 	mt19937 gen(rd());
-	uniform_int_distribution<> distrib(100, 1000); // Delay between 1 and 5 ms
+	uniform_int_distribution<> distrib(100, 1000);
 	this_thread::sleep_for(chrono::milliseconds(distrib(gen)));
 	for (int i = 0; i < numOrders; ++i) {
 			if (i % 2 == 0) {
