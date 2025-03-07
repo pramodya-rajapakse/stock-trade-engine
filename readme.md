@@ -2,7 +2,7 @@
 ### Pramodya Rajapakse - Stock Trading Engine
 
 ## Run Options
-In this replit console, the code can be compiled with `g++ main.cpp`.
+In this replit shell, the code can be compiled with `g++ main.cpp`.
 There are 5 run options:
 - `./a.out add` : This option will add 2 Buy and 2 Sell order of the same ticker type, showing how they will be inserted in sorted order for their respective lists.
 - `./a.out match` : This option will add 3 Buy and 3 Sell orders of the same ticker type, and then call matchOrder() to show how buy-sell will be matched and removed.
