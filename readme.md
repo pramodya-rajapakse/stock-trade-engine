@@ -24,4 +24,4 @@ Synchronization is achieved by including a mutex in the OrdersList object. The `
 ## Additional Notes
 I was slightly unsure of how the `matchOrder()` function should operate in terms of which Buy order to match with the smallest Sell order. At first I considered matching the Buy order with the smallest price larger/equal than the smallest Sell order price, as that could potentially result in more matches. However, contextually, I think it makes more sense for the largest Buy order price to match first, since they would likely get priority for buying at the highest price (that would result in the most profit for the one selling). 
 
-The simulation option only works with two ticker types to make tracking changes easier, but there is support for up to 1024 unique tickers in the implementation.
+The simulation option only uses two ticker types to make tracking changes easier, but there is support for up to 1024 unique tickers in the implementation.
